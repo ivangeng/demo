@@ -1,5 +1,4 @@
 windowXMLHttpRequest=window.XMLHttpRequest;
-
 //Constants
 Client.ELEMENT_NODE_TYPE = 1;
 
