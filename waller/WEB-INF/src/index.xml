@@ -1,0 +1,88 @@
+<!doctype html><html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=gb2312">
+			<title>百度一下，你就知道      </title>
+			<style>body{font:12px arial;text-align:center;background:#fff}body,p,form,ul{margin:0;padding:0}body,form,#fm,#lg img{position:relative}td{text-align:left}img{border:0}a{color:#00c}a:active{color:#f60}#u{padding:7px 10px 3px 0;text-align:right}#m{width:650px;margin:0 auto}#nv{font-size:16px;margin:0 0 4px -51px}#nv a,#nv b,#su,#lk{font-size:14px}#lg{margin:-17px 0 9px}#fm{padding-left:100px;text-align:left}#kw{width:391px;padding:3px 1px;margin:0 6px 0 0;font:16px/16px arial}#su{width:78px;height:28px;line-height:24px}#kw,#su{vertical-align:middle}#lk{margin:33px 0}#lk span{font:14px "宋体"}#lm{height:60px}#lh{margin:16px 0 5px;font:12px "宋体"}#lh a{font:12px arial}#mCon{position:absolute;right:7px;*top:9px;top:5px;cursor:pointer;padding:0 18px 0 0;background:url(http://www.baidu.com/img/arr.gif) no-repeat right center}#mCon span{color:#00c;cursor:default;display:block;padding-top:3px}#mCon .hw{text-decoration:underline;cursor:pointer}#mMenu{width:56px;border:1px solid #9a99ff;list-style:none;position:absolute;right:7px;top:28px;display:none;background:#fff}#mMenu a{width:100%;height:100%;display:block;line-height:22px;text-indent:6px;text-decoration:none}#mMenu a:hover{background:#d9e1f6}#mMenu .ln{height:1px;background:#ccf;overflow:hidden;margin:2px;font-size:1px;line-height:1px}#cp,#cp a{color:#77c}</style>
+	</head>
+	<body>
+		<p id="u">
+			<a href="/gaoji/preferences.html">搜索设置</a>&nbsp;|&nbsp;
+			<a href="http://passport.baidu.com/?login&tpl=mn">登录</a>
+		</p>
+		<div id="m">
+			<p id="lg">
+				<img src="http://www.baidu.com/img/baidu_logo_jr_1011_aizi_5a1db24975a30a6ac5f3afd5ea2d2bbf.gif" width="270" height="129" usemap="#mp">
+			</p>
+			<p id="nv">
+				<a href="http://news.baidu.com">新&nbsp;闻</a>　
+				<b>网&nbsp;页</b>　
+				<a href="http://tieba.baidu.com">贴&nbsp;吧</a>　
+				<a href="http://zhidao.baidu.com">知&nbsp;道</a>　
+				<a href="http://mp3.baidu.com">MP3</a>　
+				<a href="http://image.baidu.com">图&nbsp;片</a>　
+				<a href="http://video.baidu.com">视&nbsp;频</a>　
+				<a href="http://map.baidu.com">地&nbsp;图</a>
+			</p>
+			<div id="fm">
+				<form name="f" action="/waller/waller.do?act=s">
+					<input type="text" name="wd" id="kw" maxlength="100">
+						<input type="submit" value="百度一下" id="su">
+				</form>
+				<div id="mCon">
+					<span>输入法</span>
+				</div>
+				<ul id="mMenu">
+					<li>
+						<a href="#" name="ime_hw">手写</a>
+					</li>
+					<li>
+						<a href="#" name="ime_py">拼音</a>
+					</li>
+					<li class="ln"></li>
+					<li>
+						<a href="#" name="ime_cl">关闭</a>
+					</li>
+				</ul>
+			</div>
+
+			<p id="lk">
+				<a href="http://hi.baidu.com">空间</a>　
+				<a href="http://baike.baidu.com">百科</a>　
+				<a href="http://www.hao123.com">hao123</a>
+				<span> | 
+					<a href="/more/">更多&gt;&gt;</a>
+				</span>
+			</p>
+			<p id="lm"></p>
+			<p>
+				<a id="st" onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.baidu.com')" href="http://utility.baidu.com/traf/click.php?id=215&url=http://www.baidu.com">把百度设为主页</a>
+			</p>
+			<p id="lh">
+				<a href="http://e.baidu.com/?refer=888">加入百度推广</a> | 
+				<a href="http://top.baidu.com">搜索风云榜</a> | 
+				<a href="http://home.baidu.com">关于百度</a> | 
+				<a href="http://ir.baidu.com">About Baidu</a>
+			</p>
+			<p id="cp">&copy;2010 Baidu 
+				<a href="/duty/">使用百度前必读</a> 
+				<a href="http://www.miibeian.gov.cn" target="_blank">京ICP证030173号</a> 
+				<img src="http://gimg.baidu.com/img/gs.gif">
+			</p>
+		</div>
+		<map name="mp">
+			<area shape="rect" coords="43,22,227,91" href="http://hi.baidu.com/baidu/blog/item/8546bd0039af3296e950cd88.html" target="_blank" title="点此进入 百度的空间">
+		</map>
+	</body>
+
+	<script>var w=window,d=document,n=navigator,k=d.f.wd,a=d.getElementById("nv").getElementsByTagName("a"),isIE=n.userAgent.indexOf("MSIE")!=-1;if(!isIE||window.opera){d.getElementById("st").style.display="none"}for(var i=0;i
+		<a.length;i++){a[i].onclick=function(){if(k.value.length>0){var C=this,A=C.href,B=encodeURIComponent(k.value);if(A.indexOf("q=")!=-1){C.href=A.replace(/q=[^&$]*/,"q="+B)}else{this.href+="?q="+B}}}}(function(){if(/q=([^&]+)/.test(location.search)){k.value=decodeURIComponent(RegExp.$1)}})();if(n.cookieEnabled&&!/sug?=0/.test(d.cookie)){d.write('
+			<script src=http://www.baidu.com/js/bdsug.js?v=1.0.3.0><\/script>')}function addEV(C,B,A){if(w.attachEvent){C.attachEvent("on"+B,A)}else{if(w.addEventListener){C.addEventListener(B,A,false)}}}function G(A){return d.getElementById(A)}var bdimeHW={};var imeTar="kw";var ime_t1=(new Date()).getTime();(function(){var O=G("mCon"),A=G("mMenu");var B=["输入法","手写","拼音"],Q=["cl","hw","py"],D=["","http://www.baidu.com/hw/hwInput_1.1.js","http://www.baidu.com/olime/bdime.js"],P=[0,0,0];var N=n.cookieEnabled;if(N&&/\bbdime=(\d)/.test(d.cookie)){H(Q[RegExp.$1],false)}var M=A.getElementsByTagName("a");for(var I=0;I
+				<M.length;I++){M[I].onclick=F}if(isIE){var E=[];var R=O.getElementsByTagName("*");for(var I=0;I
+					<R.length;I++){E.push(R[I])}E.push(O);var R=A.getElementsByTagName("*");for(var I=0;I
+						<R.length;I++){E.push(R[I])}E.push(A);for(var I=0;I
+							<E.length;I++){E[I].setAttribute("unselectable","on")}}else{try{var L=k.value.length;k.selectionStart=L;k.selectionEnd=L;bdimeHW.hasF=1}catch(K){}}function F(){ime_t1=(new Date()).getTime();var S=this.name.split("_")[1];if(w.bdime){bdime.control.closeIme()}H(S,true);return false}function H(W,S){var V=0;if(W==Q[1]){V=1;O.innerHTML='
+								<span id="imeS" class="hw">'+B[1]+"</span>";if(isIE){G("imeS").setAttribute("unselectable","on")}function U(){if(!P[1]){if(d.selection&&d.activeElement.id&&d.activeElement.id=="kw"){bdimeHW.hasF=1}bdimeHW.input=imeTar;bdimeHW.submit="su";J(D[1]);setTimeout(function(){if(bdsug){bdsug.sug.initial()}},1000);P[1]=1}else{bdimeHW.reload(S)}}if(S){U()}else{addEV(G("imeS"),"click",U)}}else{if(W==Q[2]){V=2;O.innerHTML="
+								<span>"+B[2]+"</span>";if(!P[2]){J(D[2]);P[2]=1}else{if(w.bdime){bdime.control.openIme()}}}else{O.innerHTML="
+								<span>"+B[0]+"</span>"}}if(S&&N){var T=new Date();T.setTime(T.getTime()+365*24*3600*1000);d.cookie="bdime="+V+";domain=baidu.com;path=/;expires="+T.toGMTString()}}function J(S){if(S){var T=d.createElement("script");T.src=S;d.getElementsByTagName("head")[0].appendChild(T)}}function C(T){var T=T||window.event;var S=T.target||T.srcElement;A.style.display=S.id=="mCon"&&A.style.display!="block"?"block":"none"}addEV(d,"click",C)})();addEV(w,"load",function(){k.focus()});w.onunload=function(){};
+			</script>
+</html><!--c0fd2c5b2b478d74-->
